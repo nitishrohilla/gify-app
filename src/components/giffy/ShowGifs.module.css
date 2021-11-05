@@ -1,0 +1,40 @@
+.gif {
+  display: flex;
+  flex-direction: column;
+  height: 22rem;
+  max-width: 22rem;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  color: black;
+}
+.gif img {
+  width: auto;
+  height: auto;
+  max-height: 250px;
+  max-width: 300px;
+}
+
+.giflist {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+  margin-top: -1rem;
+  color: seashell;
+}
+
+@media only screen and (max-width: 768px) {
+  .gif {
+    width: 100%;
+    max-width: 30rem;
+    height: auto;
+    margin-top: 1rem;
+  }
+}

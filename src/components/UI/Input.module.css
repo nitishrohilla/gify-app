@@ -1,0 +1,13 @@
+.input{
+width: 30rem;
+height: 2rem;
+border-radius: 5px;
+font: 20px sans-serif;
+padding: 1em;
+}
+
+@media only screen and (max-width: 768px){
+    .input{
+        width: 25rem;
+    }
+}
